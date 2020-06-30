@@ -1,0 +1,15 @@
+cheackout --> ultimos cambios o ciertos cambios hechos por otra persona
+
+Merge --> unir una rama con otra 
+
+    git status --> estado del repositorio 
+
+cached --> en memoria ram
+    git add notas.txt --> añandiendo archivo al repositorio
+    git rm --cached notas.txt --> eliminar el archivo añadido
+
+Siempre se debe dejar un mensaje con "git commit"
+    git config --> configuracion de git en el equipo
+    git config --list --> Lista de la configuracion
+    git config --global user.name "Laura Santacruz"
+    git config --global user.email "lnsantacruzo@gmail.com"
