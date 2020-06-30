@@ -13,3 +13,10 @@ Siempre se debe dejar un mensaje con "git commit"
     git config --list --> Lista de la configuracion
     git config --global user.name "Laura Santacruz"
     git config --global user.email "lnsantacruzo@gmail.com"
+
+    git show --> ver cambios que se han hecho en el archivo
+
+    esc + shift + z + z --> para salir del editor de codigo de la linea de comando llamado VIM, 
+    Para escribir se usa esc + i
+
+TENGO QUE TOMAR EL CURSO DE INTERFAZ Y LINEA DE COMANDOS 
