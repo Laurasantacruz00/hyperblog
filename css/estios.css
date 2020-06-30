@@ -1,9 +1,9 @@
 body
 {
-    color: deeppink;
+    color: blue;
     text-align: center;
-    font-family: Arial;
-    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
     margin: 0;
     padding: 0;
 }
@@ -14,4 +14,21 @@ body
     text-align: left;
     border: 1px solid #DDD;
     margin: 0 auto;
+}
+#cuadro
+{
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    width: 70%;
+    padding: 1em;
+    text-align: center;
+    border: 4px solid deeppink;
+    margin: 0 auto;
+}
+p
+{
+    text-align: center;
+    color: deeppink;
+    font-family: cursive;
 }
