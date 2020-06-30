@@ -20,4 +20,8 @@ Siempre se debe dejar un mensaje con "git commit"
     Para escribir se usa esc + i
 
 TENGO QUE TOMAR EL CURSO DE INTERFAZ Y LINEA DE COMANDOS 
-    git diff (junto con el id del commit)--> Para ver las diferencias entre un archivo y otro 
+    git diff 02200f692aaa7dd1b9516142c270e4b1116fe071 62af9990249da9017c3a43db7b553460c302c431(junto con el id del commit anterior y nuevo)--> Para ver las diferencias entre un archivo y otro 
+
+    git reset 02200f692aaa7dd1b9516142c270e4b1116fe071 --hard  --> para volver a TODA la version anterior
+    git reset 02200f692aaa7dd1b9516142c270e4b1116fe071 --soft  --> para volver la version anterior pero conservando lo que ya se le hizo add
+    
