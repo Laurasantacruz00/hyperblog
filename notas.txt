@@ -20,3 +20,4 @@ Siempre se debe dejar un mensaje con "git commit"
     Para escribir se usa esc + i
 
 TENGO QUE TOMAR EL CURSO DE INTERFAZ Y LINEA DE COMANDOS 
+    git diff (junto con el id del commit)--> Para ver las diferencias entre un archivo y otro 
