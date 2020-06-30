@@ -7,6 +7,8 @@ Un git pull es:
     git merge --> Fuciona la ultima version del repositorio local con el remoto
     git fetch --> trae actualizaciones del repositorio remoto pero no lo copia en mis archivos
 
+    git commit -am --> hace un add y un commit al mismo tiempo solo funciona al haber hecho previamente un add y un commit
+
 cached --> en memoria ram
     git add notas.txt --> añandiendo archivo al repositorio
     git rm --cached notas.txt --> eliminar el archivo añadido
@@ -53,3 +55,10 @@ Borramos la historia y la debemos sobreescribir. No hay vuelta atrás.
     No para borrarlos ni nada de eso, solo para que los últimos cambios de estos archivos 
     no se envíen al último commit, a menos que cambiemos de opinión y los incluyamos de nuevo 
     en staging con git add, por supuesto.
+
+    git branch cabecera --> Para creer un nueva rama 
+    git checkout cabecera --> cambiar de rama 
+
+    
+
+
