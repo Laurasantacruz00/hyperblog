@@ -59,6 +59,7 @@ Borramos la historia y la debemos sobreescribir. No hay vuelta atrás.
     git branch cabecera --> Para creer un nueva rama 
     git checkout cabecera --> cambiar de rama 
 
-    
+    git pull origin master --allow-unrelated-histories --> Forzar la subida de archivos remotos
+
 
 
