@@ -91,8 +91,20 @@ Cifrado asimetrico de un solo camino:
         eval $(ssh-agent -s)
         ssh-add ~/.ssh/id_rsa --> Añadiendo llave privada 
 
+Pull request --> estado intermedio antes de enviar el merge
+                    No es una caracteristica de git, es de github
+
+daft pull request --> Es como un borrador del pull request
+
+Para traer cambios de un repositorio a un fork(copia de la rama de otra persona para hacer cambios sin estar asociado a este )
+    git remote add upstream(el nombre que uno quiera) url(del repositorio remoto) 
+    git remote add upstream https://github.com/Laurasantacruz00/hyperblog.git
+
+    git pull upstream master --> trae lo que se tenia en upstream a la rama principal
+
+Feature -->
 
 
-
+Stash
 
 
