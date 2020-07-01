@@ -30,7 +30,14 @@ TENGO QUE TOMAR EL CURSO DE INTERFAZ Y LINEA DE COMANDOS
     git reset 02200f692aaa7dd1b9516142c270e4b1116fe071 --hard  --> para volver a TODA la version anterior
     git reset 02200f692aaa7dd1b9516142c270e4b1116fe071 --soft  --> para volver la version anterior pero conservando lo que ya se le hizo add
     
+    git log        --> cambios realizados
     git log --stat --> Ver cambios especifico
+    git log --all  --> todos los cambios realizados
+    git log --graph --> muestra las ramas
+    git log -- decorate --onelina --> muesta de forma comprimida las ramas 
+    
+Se puede crear un nombre como un estilo variable que llamara a la linea que queramos ej:
+    alias arbolito="git log --all --graph --decorate --oneline" 
 
     git rm --> Este comando nos ayuda a eliminar archivos de Git sin eliminar su historial del sistema de versiones. 
     Esto quiere decir que si necesitamos recuperar el archivo solo debemos “viajar en el tiempo” y recuperar el último commit antes de borrar el archivo en cuestión.
@@ -75,7 +82,7 @@ Cifrado asimetrico de un solo camino:
         eval $(ssh-agent -s)
         ssh-add ~/.ssh/id_rsa --> Añadiendo llave privada 
 
-    
+
 
 
 
