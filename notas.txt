@@ -58,8 +58,25 @@ Borramos la historia y la debemos sobreescribir. No hay vuelta atrás.
 
     git branch cabecera --> Para creer un nueva rama 
     git checkout cabecera --> cambiar de rama 
-
+    git remote add origin https://github.com/Laurasantacruz00/hyperblog.git -->Enlazar con un repositorio remoto
     git pull origin master --allow-unrelated-histories --> Forzar la subida de archivos remotos
+
+HACER CURSO DE LINUX
+
+Cifrado asimetrico de un solo camino:
+    SSH-->Secure shell, PROTOCOLO PARA CONECTARNOS A SERVIDORES REMOTOS
+    Estas llaves son por personas 
+    Crear llaves --> ssh-keygen -t rsa -b 4096 -C "correo"
+    llave privada --> id_rsa
+    llave publica --> id_rsa.pub
+
+    Agregar llave al entorno para que el so sepa que existe la llave
+    Para saber que el servidor de llaves este prendido 
+        eval $(ssh-agent -s)
+        ssh-add ~/.ssh/id_rsa --> Añadiendo llave privada 
+
+    
+
 
 
 
