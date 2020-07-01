@@ -9,6 +9,11 @@ Un git pull es:
 
     git commit -am --> hace un add y un commit al mismo tiempo solo funciona al haber hecho previamente un add y un commit
 
+Git tag --> Para agregarle un tag
+    git tag -a v0.1 -m"Resultado de las primeras clases del curso " 2d14f6f
+    git tag -d v0.1 -->Para borrarlo un tag 
+    git push origin :refs/tags/v0.1 --> borra la referencia en el origin 
+
 cached --> en memoria ram
     git add notas.txt --> añandiendo archivo al repositorio
     git rm --cached notas.txt --> eliminar el archivo añadido
@@ -20,7 +25,9 @@ Siempre se debe dejar un mensaje con "git commit"
     git config --global user.email "lnsantacruzo@gmail.com"
 
     git show --> ver cambios que se han hecho en el archivo
-
+    git show-ref --tags -->Ver cambios listado por su tag 
+    git show-branch --all --> Ver todas las ramas
+    
     esc + shift + z + z --> para salir del editor de codigo de la linea de comando llamado VIM, 
     Para escribir se usa esc + i
 
@@ -67,6 +74,8 @@ Borramos la historia y la debemos sobreescribir. No hay vuelta atrás.
     git checkout cabecera --> cambiar de rama 
     git remote add origin https://github.com/Laurasantacruz00/hyperblog.git -->Enlazar con un repositorio remoto
     git pull origin master --allow-unrelated-histories --> Forzar la subida de archivos remotos
+
+
 
 HACER CURSO DE LINUX
 
