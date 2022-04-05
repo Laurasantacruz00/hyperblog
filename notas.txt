@@ -91,6 +91,8 @@ Cifrado asimetrico de un solo camino:
         eval $(ssh-agent -s)
         ssh-add ~/.ssh/id_rsa --> Añadiendo llave privada 
 
+Sergio estaba por aqui adios
+
 Pull request --> estado intermedio antes de enviar el merge
                     No es una caracteristica de git, es de github
 
